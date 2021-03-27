@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6bc0aa9b3b904a9826d3de5c24af3, type: 3}
+  m_Name: SnowShark
+  m_EditorClassIdentifier: 
+  horSize: 2
+  sprite: {fileID: 239243119211720848, guid: 3e140b38b9b66304d9806248529885d1, type: 3}
+  ItemType: 0
+  dropPrefab: {fileID: 6886567095217951124, guid: 28ca48c74d50d794db3a4d5423767544,
+    type: 3}
+  canReload: 1
+  secondAttack: 0
+  dmg: 75
+  maxdmg: 100
+  dist: 200
+  relTime: 3
+  secondAttackDopTime: 0
+  shootPrevTime: 0.7
+  shootOutTime: 1.7
+  idleAnim: Idle
+  attackAnim: Attack
+  reloadAnim: Reload
+  sattackAnim: 
+  weight: 4000
+  leftPrefab: {fileID: 6886567095217951124, guid: 28ca48c74d50d794db3a4d5423767544,
+    type: 3}
+  rightPrefab: {fileID: 0}
+  runtimeAnimator: {fileID: 9100000, guid: 105ad5455e700b046bd774a4f9e0fe24, type: 2}
+  bulletsMax: 4
+  bulletsIn: 0
+  bulletSub: 1
+  bullets: {fileID: 11400000, guid: 7d12de887f8dec348b674cdf2e24e0e7, type: 2}
+  attackSpeed: 1
+  armor: 0
+  hunger: 0
+  water: 0
+  rad: 0
+  heal: 0
+  useDestroy: 0
+  arrowBullet: 0
+  spawndecal: 1
+  RidleAnim: IdleRifle
+  RattackAnim: AttackRifle
+  RreloadAnim: ReloadRifle
+  RsattackAnim: 
+  RmoveAnim: MoveRifle
+  shooSound: {fileID: 8300000, guid: 1f2c774bc8a2d714eafb64cd6a59b935, type: 3}

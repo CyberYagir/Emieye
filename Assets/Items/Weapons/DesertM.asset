@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6bc0aa9b3b904a9826d3de5c24af3, type: 3}
+  m_Name: DesertM
+  m_EditorClassIdentifier: 
+  horSize: 2
+  sprite: {fileID: 4813231561224179776, guid: 3e140b38b9b66304d9806248529885d1, type: 3}
+  ItemType: 0
+  dropPrefab: {fileID: 8797300431017424563, guid: 4c5531edcdcff004ea0e9a18fb873bb3,
+    type: 3}
+  canReload: 1
+  secondAttack: 0
+  dmg: 20
+  maxdmg: 60
+  dist: 200
+  relTime: 2
+  secondAttackDopTime: 0
+  shootPrevTime: 0.083
+  shootOutTime: 0.1
+  idleAnim: Idle
+  attackAnim: Attack
+  reloadAnim: Reload
+  sattackAnim: 
+  weight: 4300
+  leftPrefab: {fileID: 0}
+  rightPrefab: {fileID: 8797300431017424563, guid: 4c5531edcdcff004ea0e9a18fb873bb3,
+    type: 3}
+  runtimeAnimator: {fileID: 9100000, guid: 7376a37ef3637964d8f0710f79e2dc2f, type: 2}
+  bulletsMax: 45
+  bulletsIn: 78
+  bulletSub: 1
+  bullets: {fileID: 11400000, guid: 98e330ce3f78877498db01761bf420d9, type: 2}
+  attackSpeed: 1
+  attackPitch: 1
+  armor: 0
+  hunger: 0
+  water: 0
+  rad: 0
+  heal: 0
+  useDestroy: 0
+  arrowBullet: 0
+  spawndecal: 1
+  RidleAnim: IdleM4A1
+  RattackAnim: AttackM4A1
+  RreloadAnim: ReloadM4A1
+  RsattackAnim: 
+  RmoveAnim: MoveM4A1
+  shooSound: {fileID: 8300000, guid: fb28ccf2379de9c4da81594c23d9abe4, type: 3}

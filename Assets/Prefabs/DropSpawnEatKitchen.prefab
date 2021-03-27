@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3475538210745237732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 779287611555045378}
+  - component: {fileID: 6134356074453342467}
+  m_Layer: 0
+  m_Name: DropSpawnEatKitchen
+  m_TagString: Untagged
+  m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &779287611555045378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475538210745237732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.01541, y: -0.00098, z: -0.0042}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6134356074453342467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3475538210745237732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e411c28619b602344bfa2accc42cc828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 06ddcd140f5a8f34aa80fd99b1a32667, type: 2}
+  - {fileID: 11400000, guid: 177c7b3a70ba08f45ae1a8511e9b5448, type: 2}
+  - {fileID: 11400000, guid: 7892a1b8acd6a0949bbe567834835403, type: 2}
+  - {fileID: 11400000, guid: 6d519223575bab041ab9f8d7b4488ce0, type: 2}
+  - {fileID: 11400000, guid: 8314daee2456539458e70445c630dab4, type: 2}
+  - {fileID: 11400000, guid: 10c3972590f9e1d40a477c70e9c3c88a, type: 2}
+  - {fileID: 11400000, guid: 3de28db630895604c885cd5bb7205f9b, type: 2}
+  - {fileID: 11400000, guid: 15e92fb26eb87ea4786285fe1803347b, type: 2}
+  drop: {fileID: 5479482918994426607, guid: 6de6a5c86a691cc468d41492fec89760, type: 3}
+  spawned: {fileID: 0}
+  rare: 3

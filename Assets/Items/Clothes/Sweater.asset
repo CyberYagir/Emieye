@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6bc0aa9b3b904a9826d3de5c24af3, type: 3}
+  m_Name: Sweater
+  m_EditorClassIdentifier: 
+  horSize: 1
+  sprite: {fileID: 292980805430238366, guid: 3e140b38b9b66304d9806248529885d1, type: 3}
+  ItemType: 3
+  dropPrefab: {fileID: 1430330959142803393, guid: 58a3ec88e3b115541837d7a2b961d3ca,
+    type: 3}
+  canReload: 0
+  secondAttack: 0
+  dmg: 0
+  maxdmg: 0
+  dist: 0
+  relTime: 0
+  secondAttackDopTime: 0
+  shootPrevTime: 0.5
+  shootOutTime: 0
+  idleAnim: Idle
+  attackAnim: Wear
+  reloadAnim: 
+  sattackAnim: 
+  weight: 300
+  leftPrefab: {fileID: 0}
+  rightPrefab: {fileID: 1430330959142803393, guid: 58a3ec88e3b115541837d7a2b961d3ca,
+    type: 3}
+  runtimeAnimator: {fileID: 9100000, guid: aa861938a9888c64d89eb53829f628b0, type: 2}
+  bulletsMax: 0
+  bulletsIn: 0
+  bulletSub: 0
+  bullets: {fileID: 0}
+  armor: 3
+  hunger: 0
+  water: 0
+  rad: 0
+  heal: 0
+  useDestroy: 0
+  arrowBullet: 0
+  spawndecal: 1
+  RidleAnim: Wear
+  RattackAnim: Wear
+  RreloadAnim: 
+  RsattackAnim: 
+  RmoveAnim: 

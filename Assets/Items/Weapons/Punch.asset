@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6bc0aa9b3b904a9826d3de5c24af3, type: 3}
+  m_Name: Punch
+  m_EditorClassIdentifier: 
+  horSize: 1
+  sprite: {fileID: -854157385759928050, guid: 3e140b38b9b66304d9806248529885d1, type: 3}
+  ItemType: 0
+  dropPrefab: {fileID: 0}
+  canReload: 0
+  secondAttack: 1
+  dmg: 2
+  maxdmg: 8
+  dist: 2
+  relTime: 1
+  secondAttackDopTime: 1
+  shootPrevTime: 0.23
+  shootOutTime: 0.1
+  idleAnim: Idle
+  attackAnim: Attack
+  reloadAnim: Reload
+  sattackAnim: Attack2
+  weight: 0
+  leftPrefab: {fileID: 0}
+  rightPrefab: {fileID: 0}
+  runtimeAnimator: {fileID: 9100000, guid: 0776c156fd63fe545bbaa866f977863f, type: 2}
+  bulletsMax: 1
+  bulletsIn: 1
+  bulletSub: 0
+  bullets: {fileID: 0}
+  attackSpeed: 1
+  attackPitch: 1
+  armor: 0
+  hunger: 0
+  water: 0
+  rad: 0
+  heal: 0
+  useDestroy: 0
+  arrowBullet: 0
+  spawndecal: 1
+  RidleAnim: IdleHands
+  RattackAnim: Attack1Hands
+  RreloadAnim: 
+  RsattackAnim: Attack2Hands
+  RmoveAnim: MoveHands
+  shooSound: {fileID: 8300000, guid: a7b3ee0d9480dd246bef7054550a413c, type: 3}
+  shooSound2: {fileID: 8300000, guid: 031d7ae1567bf1e46ba89bc31e7857f7, type: 3}

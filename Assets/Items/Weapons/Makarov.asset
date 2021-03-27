@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6bc0aa9b3b904a9826d3de5c24af3, type: 3}
+  m_Name: Makarov
+  m_EditorClassIdentifier: 
+  horSize: 1
+  sprite: {fileID: -901834805391933415, guid: 3e140b38b9b66304d9806248529885d1, type: 3}
+  ItemType: 0
+  dropPrefab: {fileID: 4299015752208499681, guid: 03c85c1e508b2384ca4527d8c55d166d,
+    type: 3}
+  canReload: 1
+  secondAttack: 0
+  dmg: 25
+  maxdmg: 25
+  dist: 200
+  relTime: 2
+  secondAttackDopTime: 0
+  shootPrevTime: 0.01
+  shootOutTime: 0.45
+  idleAnim: Idle
+  attackAnim: Attack
+  reloadAnim: Reload
+  sattackAnim: 
+  weight: 1500
+  leftPrefab: {fileID: 0}
+  rightPrefab: {fileID: 4299015752208499681, guid: 03c85c1e508b2384ca4527d8c55d166d,
+    type: 3}
+  runtimeAnimator: {fileID: 9100000, guid: 431b83f40746ec24eb8651e430b85558, type: 2}
+  bulletsMax: 12
+  bulletsIn: 17
+  bulletSub: 1
+  bullets: {fileID: 11400000, guid: 2299e92caa0a24d4a84ce8609711feab, type: 2}
+  attackSpeed: 1.5
+  armor: 0
+  hunger: 0
+  water: 0
+  rad: 0
+  heal: 0
+  useDestroy: 0
+  arrowBullet: 0
+  spawndecal: 1
+  RidleAnim: IdlePistol
+  RattackAnim: Attack1Pistol
+  RreloadAnim: ReloadPistol
+  RsattackAnim: Attack2Pistol
+  RmoveAnim: MovePistol
+  shooSound: {fileID: 8300000, guid: 52d44b1736c4c654d970000665a6cd7f, type: 3}

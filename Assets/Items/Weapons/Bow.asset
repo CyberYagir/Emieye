@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6bc0aa9b3b904a9826d3de5c24af3, type: 3}
+  m_Name: Bow
+  m_EditorClassIdentifier: 
+  horSize: 2
+  sprite: {fileID: 4969534639770395664, guid: 3e140b38b9b66304d9806248529885d1, type: 3}
+  ItemType: 0
+  dropPrefab: {fileID: 1162195061161132807, guid: 3a7b25131cbd8f347ab697ad2976aa32,
+    type: 3}
+  canReload: 1
+  secondAttack: 0
+  dmg: 25
+  maxdmg: 35
+  dist: 200
+  relTime: 1
+  secondAttackDopTime: 0
+  shootPrevTime: 0.71
+  shootOutTime: 0.4
+  idleAnim: Idle
+  attackAnim: Attack
+  reloadAnim: Reload
+  sattackAnim: 
+  weight: 400
+  leftPrefab: {fileID: 1162195061161132807, guid: 3a7b25131cbd8f347ab697ad2976aa32,
+    type: 3}
+  rightPrefab: {fileID: 0}
+  runtimeAnimator: {fileID: 9100000, guid: 7b779ab4823604745b38312a721143e1, type: 2}
+  bulletsMax: 1
+  bulletsIn: 1
+  bulletSub: 1
+  bullets: {fileID: 11400000, guid: 5e2ed0d5c8dacf84a98525c1e8e4621f, type: 2}
+  armor: 0
+  hunger: 0
+  water: 0
+  rad: 0
+  heal: 0
+  useDestroy: 0
+  arrowBullet: 1
+  spawndecal: 1
+  RidleAnim: IdleBow
+  RattackAnim: AttackBow
+  RreloadAnim: ReloadBow
+  RsattackAnim: 
+  RmoveAnim: MoveBow

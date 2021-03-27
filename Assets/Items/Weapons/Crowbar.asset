@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa6bc0aa9b3b904a9826d3de5c24af3, type: 3}
+  m_Name: Crowbar
+  m_EditorClassIdentifier: 
+  horSize: 2
+  sprite: {fileID: -3236983621923482423, guid: 3e140b38b9b66304d9806248529885d1, type: 3}
+  ItemType: 0
+  dropPrefab: {fileID: 7502035670193062876, guid: 186151fb103c94a45b248959da896418,
+    type: 3}
+  canReload: 0
+  secondAttack: 1
+  dmg: 25
+  maxdmg: 30
+  dist: 3
+  relTime: 1
+  secondAttackDopTime: 1.2
+  shootPrevTime: 0.5
+  shootOutTime: 0.3
+  idleAnim: Idle
+  attackAnim: Attack
+  reloadAnim: Reload
+  sattackAnim: Attack1
+  weight: 1000
+  leftPrefab: {fileID: 0}
+  rightPrefab: {fileID: 7502035670193062876, guid: 186151fb103c94a45b248959da896418,
+    type: 3}
+  runtimeAnimator: {fileID: 9100000, guid: d5c4838e3f3ef6049a98cf3f3933911f, type: 2}
+  bulletsMax: 1
+  bulletsIn: 1
+  bulletSub: 0
+  bullets: {fileID: 0}
+  attackSpeed: 1.5
+  attackPitch: 1
+  armor: 0
+  hunger: 0
+  water: 0
+  rad: 0
+  heal: 0
+  useDestroy: 0
+  arrowBullet: 0
+  spawndecal: 1
+  RidleAnim: IdleAxe
+  RattackAnim: Attack1Axe
+  RreloadAnim: 
+  RsattackAnim: Attack2Axe
+  RmoveAnim: MoveAxe
+  shooSound: {fileID: 8300000, guid: 6c0bed034ed79004ba0b2b923538eece, type: 3}
+  shooSound2: {fileID: 8300000, guid: 0a290643c3e85c04a82cdea6c8331bd9, type: 3}

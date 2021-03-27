@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1555062705342086158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3422651226423221480}
+  - component: {fileID: 8110625059503482345}
+  m_Layer: 0
+  m_Name: DropSpawnClothes
+  m_TagString: Untagged
+  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3422651226423221480
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555062705342086158}
+  m_LocalRotation: {x: -0, y: -0, z: -0.000000014901161, w: 1}
+  m_LocalPosition: {x: 51.24, y: 6.510003, z: 6.88}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8110625059503482345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1555062705342086158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e411c28619b602344bfa2accc42cc828, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: e3d1b82b9b6c4d4418cd57a7a4ce4c15, type: 2}
+  - {fileID: 11400000, guid: e0fb5fb0e4504ff40af81bfad97f9908, type: 2}
+  - {fileID: 11400000, guid: 10bf11fd438248d43823deeacdd22e1b, type: 2}
+  - {fileID: 11400000, guid: 3a609060bba855844ba7baf7dcfa46bb, type: 2}
+  - {fileID: 11400000, guid: bc57e7d5d78427345b5768f9fd810ab4, type: 2}
+  - {fileID: 11400000, guid: 78ab08db37a3e0d40bdaf8fa5f84d0ce, type: 2}
+  - {fileID: 11400000, guid: db6e740a2f3f40a46abd703a5f20ad37, type: 2}
+  - {fileID: 11400000, guid: 4ac20121aed74aa4cbccd74da373e665, type: 2}
+  - {fileID: 11400000, guid: 0691730c731f7104c9fc17dde78bc9a0, type: 2}
+  - {fileID: 11400000, guid: 89734e8e9982f074bb03991c6bf79227, type: 2}
+  - {fileID: 11400000, guid: e7373934ecb389047960e6511050523a, type: 2}
+  - {fileID: 11400000, guid: 829476310b2567f41a751eac6490e397, type: 2}
+  drop: {fileID: 5479482918994426607, guid: 6de6a5c86a691cc468d41492fec89760, type: 3}
+  spawned: {fileID: 0}
+  rare: 3
